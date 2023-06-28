@@ -11,13 +11,13 @@
 
 // Since, all hospital staffs have AdvancedLifeSupport certification, so by inheritance, doctor being HospitalStaff, would also have AdvancedLifeSupport certification.
 class Doctor: HospitalStaff {
-    func useStethescope() {
+    func useStethescope() -> Void {
         print("Checking heart beat.")
     }
     
     // Doctors can do something extra while performing CPR. They boost morale.
-    override func performCPR() {
-        print("Everything's going to be fine. Don't you worry.")
+    override func performCPR() -> Void {
         super.performCPR()
+        print("🩺 I am a doctor. Everything's going to be fine. Don't you worry.")
     }
 }
