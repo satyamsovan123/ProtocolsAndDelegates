@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E90C73AE2A4B579A002C856A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C73AD2A4B579A002C856A /* main.swift */; };
+		E90C73B52A4B57BF002C856A /* AdvancedLifeSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C73B42A4B57BF002C856A /* AdvancedLifeSupport.swift */; };
+		E90C73B72A4B57FA002C856A /* EmergencyCallHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C73B62A4B57FA002C856A /* EmergencyCallHandler.swift */; };
+		E90C73B92A4B58AB002C856A /* HospitalStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C73B82A4B58AB002C856A /* HospitalStaff.swift */; };
+		E90C73BB2A4B60AE002C856A /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C73BA2A4B60AE002C856A /* Doctor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		E90C73AA2A4B579A002C856A /* ProtocolsAndDelegates */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtocolsAndDelegates; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90C73AD2A4B579A002C856A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E90C73B42A4B57BF002C856A /* AdvancedLifeSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLifeSupport.swift; sourceTree = "<group>"; };
+		E90C73B62A4B57FA002C856A /* EmergencyCallHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyCallHandler.swift; sourceTree = "<group>"; };
+		E90C73B82A4B58AB002C856A /* HospitalStaff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalStaff.swift; sourceTree = "<group>"; };
+		E90C73BA2A4B60AE002C856A /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				E90C73AD2A4B579A002C856A /* main.swift */,
+				E90C73B42A4B57BF002C856A /* AdvancedLifeSupport.swift */,
+				E90C73B62A4B57FA002C856A /* EmergencyCallHandler.swift */,
+				E90C73B82A4B58AB002C856A /* HospitalStaff.swift */,
+				E90C73BA2A4B60AE002C856A /* Doctor.swift */,
 			);
 			path = ProtocolsAndDelegates;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90C73B72A4B57FA002C856A /* EmergencyCallHandler.swift in Sources */,
+				E90C73BB2A4B60AE002C856A /* Doctor.swift in Sources */,
 				E90C73AE2A4B579A002C856A /* main.swift in Sources */,
+				E90C73B52A4B57BF002C856A /* AdvancedLifeSupport.swift in Sources */,
+				E90C73B92A4B58AB002C856A /* HospitalStaff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
